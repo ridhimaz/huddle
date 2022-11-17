@@ -122,18 +122,14 @@ body{
     margin-top: 5vh;
     margin-left: 2vw;
 }
-.footer-i{
-    width:5vw;
-    text-align: center;
-    padding-top: 4vh;
-    padding-left: 0;
-}
+
 .footer-flex{
     display: flex;
     padding-left: 0;
     margin-left: 0;
   
 }
+
 .bg-dark{
     background-color: hsl(192, 100%, 9%);
     
@@ -160,13 +156,15 @@ nav{
     text-align: center;
     color: #fff;
     border: solid;
-    width: 3vw;
+    width: 5vw;
     height:4vh;
     border-radius: 50%;
     border-color: #fff;
     margin-left: 2vw;
+   
     font-size: small;
-    padding-top: 1vw;
+    padding-top: 2vw;
+   
 }
 .icons{
     text-align: center;
@@ -191,6 +189,10 @@ li{
 .path-name {
     fill:#fff;
     fill-rule: evenodd;
+}
+.footer-i{
+    padding-top: 4vh;
+    margin-right: 3vw;  
 }
 
 @media screen and (min-width: 800px) {
@@ -294,6 +296,7 @@ li{
         grid-template-columns: auto auto;
         padding-top: 4vw;
     }
+   
     .content1{
         grid-area: 1/1;
         margin: auto 0;
@@ -336,11 +339,11 @@ li{
         margin-top: 0;
     }
     .last-cart{
-      margin-left:300px ;
-      margin-right:300px ;
-   
+      margin-left:200px;
+      margin-right:200px;
       padding-bottom: 0;
     }
+
    .btn-community{
    
    margin-bottom: 0;
@@ -388,6 +391,18 @@ li{
     padding-left: 2vw;
 
    }
+   #insta, #fb, #twitter {
+    text-align: center;
+    color: #fff;
+    border: solid;
+    width: 3vw;
+    height:4vh;
+    border-radius: 50%;
+    border-color: #fff;
+    margin-left: 2vw;
+    font-size: small;
+    padding-top: 1vw;
+}
    .icons{
    
     padding-right: 2vw;
@@ -413,6 +428,10 @@ li{
     padding-top: 25vh;
     padding-bottom: 5vh;
    }
-   
+   .footer-i{
+    padding-top: 3vh;
+    margin-right: 2vw;  
+}
+
     
   }
